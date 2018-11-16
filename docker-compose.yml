@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  containerreadyconsoleapp:
+    image: ${DOCKER_REGISTRY}containerreadyconsoleapp
+    build:
+      context: .
+      dockerfile: ContainerReadyConsoleApp/Dockerfile
